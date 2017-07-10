@@ -1,0 +1,6 @@
+UPDATE mydb.DGStarFormingPortCut 
+SET bpt = 'Star Forming'
+WHERE bpt = 'Star Fo'
+
+DELETE FROM mydb.DGStarFormingPortCut 
+WHERE bpt = 'BLANK'

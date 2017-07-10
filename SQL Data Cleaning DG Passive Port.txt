@@ -1,0 +1,7 @@
+UPDATE mydb.DGPassivePortCut 
+SET bpt = 'Star Forming'
+WHERE bpt = 'Star Fo'
+
+UPDATE mydb.DGPassivePortCut 
+SET bpt = 'Composite'
+WHERE bpt = 'Composi'

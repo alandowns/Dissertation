@@ -1,0 +1,4 @@
+SELECT 
+s.bpt,
+count(s.bpt) into mydb.CountBPTDGPassiveCut from mydb.DGPassivePortCut s
+group by s.bpt

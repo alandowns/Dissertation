@@ -1,0 +1,4 @@
+SELECT 
+s.bpt,
+count(s.bpt) into mydb.DGMaster from mydb.DGMasterfrom s
+group by s.bpt

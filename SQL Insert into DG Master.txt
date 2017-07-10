@@ -1,0 +1,3 @@
+SELECT * INTO MyDB.DGMaster FROM MyDB.DGPassivePortCut
+
+INSERT INTO mydb.DGMaster SELECT * FROM mydb.DGStarFormingPortCut

@@ -1,0 +1,4 @@
+SELECT 
+s.bpt,
+count(s.bpt) into mydb.CountBPTDGStarFormingCut from mydb.DGStarFormingPortCut s
+group by s.bpt
